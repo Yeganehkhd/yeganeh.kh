@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Yeganeh Khd</h1>
+        <p>UX/UI Designer</p>
+        <nav>
+            <ul>
+                <li><a href="#projects">Work</a></li> <!-- Updated to link to projects section -->
+                <li><a href="path-to-your-resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="profile-pic">
+                <img src="image/2025-02-07 14.12.03.jpg" alt="Yeganeh Khd Profile Picture">
+            </div>
+            <div class="intro">
+                <h2>Hi, I'm Yeganeh</h2>
+                <p>I design for the future of Technology.</p>
+                <div class="buttons">
+                    <button class="primary" id="scrollButton">Work</button> <!-- Added ID to the button -->
+                    <a href="path-to-your-resume.pdf" target="_blank" class="secondary"><button>Resume</button></a>
+                </div>
+                <p class="bio">
+                    Bringing a unique blend of analytical problem-solving and creative human-centered design, I have crafted intuitive, functional, and visually compelling digital experiences.
+                </p>
+            </div>
+        </section>
+        
+        <h2>works</h2>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="projects"> <!-- Added id="projects" -->
+            <div class="project-card">
+                <img src="MacBook Pro 16.jpg" alt="Project Image">
+                <div class="text-content">
+                    <h3 class="project-name">Dallas Flower Florist</h3>
+                    <h5 class="project-title">Website Redesign Solo Project</h5>
+                    <p class="project-description">
+                        Dallas Flower Florist is an online flower shop offering same-day delivery in Dallas, Texas. They provide a variety of floral arrangements, including roses, tulips, and orchids, for different occasions.
+                    </p>
+                    <a href="YeganehKhodadadian_CS (1).pdf" class="button">View Project</a>
+                    
+                    </a>
+                    
+               
+                </div>
+            </div>
+        </section>
+
+        <!-- Another Project Section -->
+        <section class="projects">
+            <div class="project-card">
+                <img src="j.png" alt="Project Image">
+                <div class="text-content">
+                    <h3 class="project-name">The Journevo</h3>
+                    <h5 class="project-title">Collaboration Project</h5>
+                    <p class="project-description">
+                        The Journevo is a web and mobile app for travel journaling and itinerary planning.
+                    </p>
+                    <h8 class="project-title">coming soon...</h8>
+                    <a href="#" class="button">View Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Yeganeh Khodadadian</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll when clicking the "Work" button
+        document.getElementById('scrollButton').addEventListener('click', function() {
+            document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
